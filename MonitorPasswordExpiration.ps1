@@ -99,6 +99,6 @@ Import-Module ActiveDirectory
     } finally {        
       # Send the whole output to SCOM        
       $PropertyBag
-      #User for testing
+      #Used for testing
       #$ScomAPI.Return($PropertyBag)
     }
