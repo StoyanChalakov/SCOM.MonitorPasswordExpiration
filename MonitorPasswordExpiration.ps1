@@ -91,7 +91,6 @@ Import-Module ActiveDirectory
                 } else {
                 #No Account are expiring. Create a Property Bag with a zero count
                 $PropertyBag.AddValue("State", "NoPasswordExpirations")
-
                 }
 
             } else {
